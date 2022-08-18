@@ -1,0 +1,5 @@
+com\seckill\SeckillApplication.class
+com\seckill\pojo\User.class
+com\seckill\mapper\UserMapper.class
+com\seckill\service\UserService.class
+com\seckill\service\impl\UserServiceImpl.class
