@@ -2,6 +2,8 @@ package com.seckill.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.seckill.pojo.Order;
+import com.seckill.pojo.User;
+import com.seckill.vo.GoodsVo;
 
 /**
 * @author yutin
@@ -10,4 +12,11 @@ import com.seckill.pojo.Order;
 */
 public interface OrderService extends IService<Order> {
 
+    /**
+     * 秒杀
+     * @param user
+     * @param goods
+     * @return
+     */
+    Order seckill(User user, GoodsVo goods);
 }

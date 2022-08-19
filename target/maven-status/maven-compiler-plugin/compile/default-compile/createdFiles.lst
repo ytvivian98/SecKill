@@ -21,6 +21,7 @@ com\seckill\utils\MD5Util.class
 com\seckill\service\impl\OrderServiceImpl.class
 com\seckill\mapper\GoodsMapper.class
 com\seckill\controller\GoodsController.class
+com\seckill\controller\SecKillController.class
 com\seckill\vo\LoginVo.class
 com\seckill\exception\GlobalException.class
 com\seckill\service\OrderService.class
