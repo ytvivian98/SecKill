@@ -18,4 +18,11 @@ public interface GoodsService extends IService<Goods> {
      * @return
      */
     List<GoodsVo> findGoodsVo();
+
+    /**
+     * 根据ID获取商品详情
+     * @param goodsId
+     * @return
+     */
+    GoodsVo findGoodsVoByGoodsId(Long goodsId);
 }
