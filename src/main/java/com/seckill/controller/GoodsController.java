@@ -32,6 +32,8 @@ public class GoodsController {
     private GoodsService goodsService;
 
     /**
+     * windows优化前QPS: 799.1/sec
+     * Linux优化前QPS：531.2/sec
      * 跳转到商品列表页面
      * @param model
      * @return

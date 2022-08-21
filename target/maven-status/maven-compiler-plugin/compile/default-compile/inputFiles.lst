@@ -9,6 +9,7 @@ D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\service\im
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\utils\UUIDUtil.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\exception\GlobalException.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\controller\LoginController.java
+D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\controller\UserController.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\mapper\UserMapper.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\pojo\SeckillOrder.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\pojo\User.java
@@ -21,6 +22,7 @@ D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\vo\RespBea
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\exception\GlobalExceptionHandle.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\utils\CookieUtil.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\service\impl\SeckillGoodsServiceImpl.java
+D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\utils\UserUtil.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\config\UserArgumentResolver.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\pojo\Order.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\service\SeckillOrderService.java

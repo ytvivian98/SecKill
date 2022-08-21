@@ -33,6 +33,8 @@ public class SecKillController {
     private OrderService orderService;
 
     /**
+     * windows优化前QPS：603.8/sec
+     * Linux优化前QPS： //这里我的Linux中没有吧秒杀订单写进去，不知道为啥
      * 秒杀
      * @param model
      * @param user

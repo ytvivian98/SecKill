@@ -2,6 +2,7 @@ com\seckill\pojo\SeckillGoods.class
 com\seckill\mapper\SeckillGoodsMapper.class
 com\seckill\exception\GlobalExceptionHandle.class
 com\seckill\mapper\SeckillOrderMapper.class
+com\seckill\utils\UserUtil.class
 com\seckill\service\impl\SeckillGoodsServiceImpl.class
 com\seckill\mapper\UserMapper.class
 com\seckill\controller\LoginController.class
@@ -15,6 +16,7 @@ com\seckill\utils\UUIDUtil.class
 com\seckill\service\SeckillOrderService.class
 com\seckill\mapper\OrderMapper.class
 com\seckill\SeckillApplication.class
+com\seckill\controller\UserController.class
 com\seckill\vo\RespBeanEnum.class
 com\seckill\pojo\User.class
 com\seckill\utils\MD5Util.class
