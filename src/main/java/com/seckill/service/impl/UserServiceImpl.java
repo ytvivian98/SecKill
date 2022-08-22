@@ -91,6 +91,31 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         }
         return user;
     }
+
+    /**
+     * 更新密码
+     * @param userTicket
+     * @param id
+     * @param password
+     * @param request
+     * @param response
+     * @return
+     */
+    @Override
+    public RespBean updatePassword(String userTicket, Long id, String password,HttpServletRequest request, HttpServletResponse response) {
+        User user = getUserByCookie(userTicket, request, response);
+        if(user == null){
+            throw new GlobalException(RespBeanEnum.MOBILE_NOT_EXIST);
+        }
+        user.setPassword(MD5Util.inputPassToDBPass(password,user.getSalt()));
+        int result = userMapper.updateById(user);
+        if(result == 1){
+            //删除Redis
+            redisTemplate.delete("user:"+userTicket);
+            return RespBean.success();
+        }
+        return RespBean.error(RespBeanEnum.PASSWORD_UPDATE_FAIL);
+    }
 }
 
 

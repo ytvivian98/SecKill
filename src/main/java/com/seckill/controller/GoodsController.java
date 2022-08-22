@@ -45,6 +45,8 @@ public class GoodsController {
 
     /**
      * windows优化前QPS: 799.1/sec
+     *      (页面)缓存QPS：1313.4/sec
+     *
      * Linux优化前QPS：531.2/sec
      * 跳转到商品列表页面
      * @param model

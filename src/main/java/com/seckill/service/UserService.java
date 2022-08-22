@@ -23,4 +23,6 @@ public interface UserService extends IService<User> {
      * @return
      */
     User getUserByCookie(String userTicket,HttpServletRequest request,HttpServletResponse response);
+
+    public RespBean updatePassword(String userTicket, Long id , String password,HttpServletRequest request, HttpServletResponse response);
 }
