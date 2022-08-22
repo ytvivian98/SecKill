@@ -1,6 +1,7 @@
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\config\WebConfig.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\utils\MD5Util.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\pojo\Goods.java
+D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\vo\DetailVo.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\vo\IsMobileValidator.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\mapper\SeckillGoodsMapper.java
 D:\Software\Javaproject\SecKillDemo\seckill\src\main\java\com\seckill\mapper\OrderMapper.java

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.seckill.pojo.Order;
 import com.seckill.pojo.User;
 import com.seckill.vo.GoodsVo;
+import com.seckill.vo.OrderDetailVo;
 
 /**
 * @author yutin
@@ -19,4 +20,11 @@ public interface OrderService extends IService<Order> {
      * @return
      */
     Order seckill(User user, GoodsVo goods);
+
+    /**
+     * 订单详情
+     * @param orderId
+     * @return
+     */
+    OrderDetailVo detail(Long orderId);
 }

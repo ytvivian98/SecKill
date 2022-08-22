@@ -3,6 +3,7 @@ com\seckill\mapper\SeckillGoodsMapper.class
 com\seckill\exception\GlobalExceptionHandle.class
 com\seckill\mapper\SeckillOrderMapper.class
 com\seckill\utils\UserUtil.class
+com\seckill\vo\DetailVo.class
 com\seckill\service\impl\SeckillGoodsServiceImpl.class
 com\seckill\mapper\UserMapper.class
 com\seckill\controller\LoginController.class
